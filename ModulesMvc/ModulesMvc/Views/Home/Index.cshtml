@@ -1,0 +1,22 @@
+﻿@model System.Collections.Generic.IEnumerable<ModulesContracts.IMvcModule>
+@{
+    ViewBag.Title = "Avaliable Modules";
+}
+
+
+@if (Model != null)
+{
+    <h2>Avaliable Modules</h2>
+
+    foreach (var module in Model)
+    {
+        <p>
+            <b>@module.Name</b> - @module.ToString()
+        </p>
+    }
+    <p>Go to <a href="@Url.Action("calculator", "home")">Calculator</a></p>
+}
+else
+{
+    <h2>No modules avaliable</h2>
+}

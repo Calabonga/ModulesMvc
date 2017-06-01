@@ -23,6 +23,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Tt]emp/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -166,7 +167,7 @@ PublishScripts/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
-# NuGet v3's project.json files produces more ignorable files
+# NuGet v3's project.json files produces more ignoreable files
 *.nuget.props
 *.nuget.targets
 
@@ -199,6 +200,7 @@ ClientBin/
 *.jfm
 *.pfx
 *.publishsettings
+node_modules/
 orleans.codegen.cs
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
@@ -219,7 +221,6 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
-*.ndf
 
 # Business Intelligence projects
 *.rdl.data
@@ -234,10 +235,6 @@ FakesAssemblies/
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
-
-# Typescript v1 declaration files
-typings/
 
 # Visual Studio 6 build log
 *.plg
@@ -277,12 +274,3 @@ __pycache__/
 # Cake - Uncomment if you are using it
 # tools/**
 # !tools/packages.config
-
-# Telerik's JustMock configuration file
-*.jmconfig
-
-# BizTalk build output
-*.btp.cs
-*.btm.cs
-*.odx.cs
-*.xsd.cs

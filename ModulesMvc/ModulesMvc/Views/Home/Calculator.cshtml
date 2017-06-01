@@ -1,0 +1,47 @@
+﻿@using System.Linq
+@using ModulesContracts
+
+@{
+    ViewBag.Title = "Calculator";
+}
+
+<h2>Calculator</h2>
+
+
+<p>
+    <input type="text" id="x" name="x" value="@ViewBag.X"/>
+</p>
+<p>
+    <input type="text" id="y" name="y"  value="@ViewBag.Y"/>
+</p>
+<p>
+    @if (ViewBag.Operations != null && ((IEnumerable<ICalculatorOperation>)ViewBag.Operations).Any())
+    {
+        foreach (var operation in (IEnumerable<ICalculatorOperation>)ViewBag.Operations)
+        {
+        <form method="POST">
+            <input type="hidden" id="@(operation.Name)_x"  name="x" value="@ViewBag.X"/>
+            <input type="hidden" id="@(operation.Name)_y" name="y"  value="@ViewBag.Y"/>
+            <input type="hidden" name="operation"  value="@operation.Name"/>
+            <p>
+                <button type="submit">@operation.Name</button>
+            </p>
+        </form>
+        }
+    }
+</p>
+
+@section scripts{
+    <script>
+        $(function () {
+            $('#x').on('change', function () {
+                var x = $(this).val();
+                $('input[id$=_x]').val(x);
+            });
+            $('#y').on('change', function () {
+                var y = $(this).val();
+                $('input[id$=_y]').val(y);
+            });
+        });
+    </script>
+}

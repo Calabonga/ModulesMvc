@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulesMvc", "ModulesMvc\ModulesMvc.csproj", "{3944A34A-EDFA-4F09-848F-55C0D475A2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulesContracts", "ModulesContracts\ModulesContracts.csproj", "{FFA21935-DEF8-4400-B650-DF1BE743827A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogServiceModule", "LogService\LogServiceModule.csproj", "{404EDBC4-D54A-46BD-9845-3CE80312F1EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{6B2CD692-4DF6-4695-83BC-B24F91F2B050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendModule", "AppendModule\AppendModule.csproj", "{7C669F04-9C69-4C70-B349-12A6EEF3E1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinusModule", "MinusModule\MinusModule.csproj", "{DDBC4EE3-F093-4EB3-A410-DBA1FE13CA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyModule", "MultiplyModule\MultiplyModule.csproj", "{D56F24B9-C7D0-4E07-B634-1BC2F4B05EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevideModule", "DevideModule\DevideModule.csproj", "{6CF9FE22-DC76-40DD-B83D-09D60D8882A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3944A34A-EDFA-4F09-848F-55C0D475A2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3944A34A-EDFA-4F09-848F-55C0D475A2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3944A34A-EDFA-4F09-848F-55C0D475A2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3944A34A-EDFA-4F09-848F-55C0D475A2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA21935-DEF8-4400-B650-DF1BE743827A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA21935-DEF8-4400-B650-DF1BE743827A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA21935-DEF8-4400-B650-DF1BE743827A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA21935-DEF8-4400-B650-DF1BE743827A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404EDBC4-D54A-46BD-9845-3CE80312F1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404EDBC4-D54A-46BD-9845-3CE80312F1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404EDBC4-D54A-46BD-9845-3CE80312F1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404EDBC4-D54A-46BD-9845-3CE80312F1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C669F04-9C69-4C70-B349-12A6EEF3E1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C669F04-9C69-4C70-B349-12A6EEF3E1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C669F04-9C69-4C70-B349-12A6EEF3E1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C669F04-9C69-4C70-B349-12A6EEF3E1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBC4EE3-F093-4EB3-A410-DBA1FE13CA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBC4EE3-F093-4EB3-A410-DBA1FE13CA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBC4EE3-F093-4EB3-A410-DBA1FE13CA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBC4EE3-F093-4EB3-A410-DBA1FE13CA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56F24B9-C7D0-4E07-B634-1BC2F4B05EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56F24B9-C7D0-4E07-B634-1BC2F4B05EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56F24B9-C7D0-4E07-B634-1BC2F4B05EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56F24B9-C7D0-4E07-B634-1BC2F4B05EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF9FE22-DC76-40DD-B83D-09D60D8882A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF9FE22-DC76-40DD-B83D-09D60D8882A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF9FE22-DC76-40DD-B83D-09D60D8882A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF9FE22-DC76-40DD-B83D-09D60D8882A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{404EDBC4-D54A-46BD-9845-3CE80312F1EF} = {6B2CD692-4DF6-4695-83BC-B24F91F2B050}
+		{7C669F04-9C69-4C70-B349-12A6EEF3E1EF} = {6B2CD692-4DF6-4695-83BC-B24F91F2B050}
+		{DDBC4EE3-F093-4EB3-A410-DBA1FE13CA21} = {6B2CD692-4DF6-4695-83BC-B24F91F2B050}
+		{D56F24B9-C7D0-4E07-B634-1BC2F4B05EEE} = {6B2CD692-4DF6-4695-83BC-B24F91F2B050}
+		{6CF9FE22-DC76-40DD-B83D-09D60D8882A9} = {6B2CD692-4DF6-4695-83BC-B24F91F2B050}
+	EndGlobalSection
+EndGlobal
